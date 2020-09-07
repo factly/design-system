@@ -1,0 +1,435 @@
+{
+  "categories": [
+    {
+      "name": "India",
+      "slug": "india"
+    },
+    {
+      "name": "Stories",
+      "slug": "stories"
+    },
+    {
+      "name": "Infographics",
+      "slug": "infographics"
+    },
+    {
+      "name": "Politics",
+      "slug": "politics"
+    },
+    {
+      "name": "Elections",
+      "slug": "elections"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Political Contributions by Yes Bank Defaulter Groups",
+      "sub_title": "political article",
+      "published_date": "20-06-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link2",
+      "__typename": "story",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "business image"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "sashi",
+          "display_name": "Sashi "
+        }
+      ],
+      "categories": {
+        "name": "Politics"
+      }
+    },
+    {
+      "title": "Political Contributions by Yes Bank Defaulter Groups",
+      "sub_title": "political article",
+      "published_date": "20-06-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link2",
+      "__typename": "story",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "business image"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "sashi",
+          "display_name": "Sashi "
+        }
+      ],
+      "categories": {
+        "name": "Politics"
+      }
+    },
+    {
+      "title": "Political Contributions by Yes Bank Defaulter Groups",
+      "sub_title": "political article",
+      "published_date": "20-06-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link2",
+      "__typename": "story",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "business image"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "sashi",
+          "display_name": "Sashi "
+        }
+      ],
+      "categories": {
+        "name": "Politics"
+      }
+    },
+    {
+      "title": "Political Contributions by Yes Bank Defaulter Groups",
+      "sub_title": "political article",
+      "published_date": "20-06-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link2",
+      "__typename": "story",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "business image"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "sashi",
+          "display_name": "Sashi "
+        }
+      ],
+      "categories": {
+        "name": "Politics"
+      }
+    },
+    {
+      "title": "Political Contributions by Yes Bank Defaulter Groups",
+      "sub_title": "political article",
+      "published_date": "20-06-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link2",
+      "__typename": "story",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "business image"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "sashi",
+          "display_name": "Sashi "
+        }
+      ],
+      "categories": {
+        "name": "Politics"
+      }
+    },
+    {
+      "title": "Political Contributions by Yes Bank Defaulter Groups",
+      "sub_title": "political article",
+      "published_date": "20-06-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link2",
+      "__typename": "story",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "business image"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "sashi",
+          "display_name": "Sashi "
+        }
+      ],
+      "categories": {
+        "name": "Politics"
+      }
+    }
+  ],
+  "factchecks": [
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    },
+    {
+      "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
+      "sub_title": "fact checking - govt.",
+      "published_date": "07-05-2020",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
+      "slug": "link1",
+      "__typename": "factcheck",
+      "media": {
+        "source_url": "https://source.unsplash.com/200x200?business",
+        "alt_text": "doubling farmer's income image"
+      },
+      "tags": {
+        "name": "India"
+      },
+      "featured": {},
+      "degaUsers": [
+        {
+          "slug": "rakesh",
+          "display_name": "Rakesh Dubbudu"
+        }
+      ],
+      "categories": {
+        "name": "India"
+      }
+    }
+  ]
+}
