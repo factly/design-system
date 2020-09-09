@@ -1,7 +1,7 @@
 import React from 'react';
-import data from '../data.json';
+
 const StoryCard = ({
-  storyData = data.posts[0],
+  storyData,
   cardStyle = 'basic',
   excerpt = false,
   imageSize = 'w-full h-40',
