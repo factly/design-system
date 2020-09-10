@@ -4,9 +4,15 @@ import MenuItems from './menuItems';
 import data from '../data.json';
 import StoryCard from './StoryCard';
 
-export default function Navbar({ fixed }) {
+/**
+ * TODO: Make it flexible by adding props
+ * TODO: Make it responsive
+ * TODO: Remove menu Item
+ * TODO: Add Customization (alignment of menu items[left,right,center])
+ */
+
+export default function Navbar() {
   const { factchecks, posts } = data;
-  //console.log(posts, factchecks);
   return (
     <React.Fragment>
       {/* {navbarOpen && (
@@ -18,7 +24,8 @@ export default function Navbar({ fixed }) {
       )} */}
       <div
         className="fixed top-0 w-screen inset-x-0 bg-white border-b border-gray-300 z-10 fadeInUp"
-        style={{ animationDelay: `${0.5}s` }}>
+        style={{ animationDelay: `${0.5}s` }}
+      >
         <header className="flex item-center justify-between border-b  border-gray-100 p-2 text-sm font-semibold text-gray-800">
           <nav className="flex flex-grow items-center justify-between px-0 lg:px-4 py-3 sm:p-0">
             <div className="flex flex-1 order-2 lg:order-1 items-center justify-end lg:justify-start">
@@ -28,15 +35,15 @@ export default function Navbar({ fixed }) {
                   <svg
                     className="fill-current w-4 h-4"
                     xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20">
+                    viewBox="0 0 20 20"
+                  >
                     {show && (
                       <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
                     )}
-                    {!show && (
-                      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-                    )}
+                    {!show && <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>}
                   </svg>
-                )}>
+                )}
+              >
                 <div className="py-4">
                   <form className="w-full max-auto">
                     <div className="flex items-center border rounded border-gray-500 py-2">
@@ -48,26 +55,24 @@ export default function Navbar({ fixed }) {
                       />
                       <button
                         className="flex-shrink-0 border-transparent border-4 text-gray-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
-                        type="button">
+                        type="button"
+                      >
                         Search
                       </button>
                     </div>
                   </form>
                 </div>
                 <div className="py-4 border-b border-gray-500">
-                  <h5 className="text-md font-normal leading-tight text-gray-700">
-                    Follow Us
-                  </h5>
+                  <h5 className="text-md font-normal leading-tight text-gray-700">Follow Us</h5>
                 </div>
                 <div className="flex px-2 py-4">
                   {[1, 2, 3, 4, 5].map(() => (
-                    <a
-                      className="block px-2 py-1 font-semibold rounded hover:opacity-50"
-                      href="/">
+                    <a className="block px-2 py-1 font-semibold rounded hover:opacity-50" href="/">
                       <svg
                         className="fill-current text-gray-400 p-1 w-10 h-10 border rounded bg-gray-800"
                         xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20">
+                        viewBox="0 0 20 20"
+                      >
                         <title>Twitter</title>
                         <path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74 11.65 11.65 0 0 1-8.45-4.3 4.1 4.1 0 0 0 1.27 5.49C2.01 8.2 1.37 8.03.8 7.7v.05a4.1 4.1 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 16.4a11.62 11.62 0 0 0 6.29 1.84"></path>
                       </svg>
@@ -83,18 +88,18 @@ export default function Navbar({ fixed }) {
                   {['about', 'terms'].map((item) => (
                     <a
                       className="flex items-center justify-start px-2 py-4 font-semibold rounded hover:opacity-50"
-                      href={item}>
+                      href={item}
+                    >
                       <svg
                         className="fill-current text-gray-800  w-20 h-20"
                         xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20">
+                        viewBox="0 0 20 20"
+                      >
                         <title>Twitter</title>
                         <path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74 11.65 11.65 0 0 1-8.45-4.3 4.1 4.1 0 0 0 1.27 5.49C2.01 8.2 1.37 8.03.8 7.7v.05a4.1 4.1 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 16.4a11.62 11.62 0 0 0 6.29 1.84"></path>
                       </svg>
                       <div className="flex flex-col px-4">
-                        <h4 className="text-xl font-medium uppercase">
-                          {item}
-                        </h4>
+                        <h4 className="text-xl font-medium uppercase">{item}</h4>
                         <p className="text-gray-600">
                           Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
                         </p>
@@ -105,26 +110,18 @@ export default function Navbar({ fixed }) {
               </MenuItems>
               <MenuItems className="order-2" title="stories">
                 {posts.map((post, index) => (
-                  <StoryCard
-                    storyData={post}
-                    index={index}
-                    imageSize="w-20 h-20"
-                  />
+                  <StoryCard storyData={post} index={index} imageSize="w-20 h-20" />
                 ))}
               </MenuItems>
               <MenuItems className="order-1 lg:order-3" title="factcheck">
                 {factchecks.map((factcheck, index) => (
-                  <StoryCard
-                    storyData={factcheck}
-                    index={index}
-                    excerpt
-                    imageSize="w-20 h-20"
-                  />
+                  <StoryCard storyData={factcheck} index={index} excerpt imageSize="w-20 h-20" />
                 ))}
               </MenuItems>
               <a
                 href="/videos"
-                className="block px-2 lg:px-4 order-3 lg:order-4 uppercase font-semibold focus:outline-none">
+                className="block px-2 lg:px-4 order-3 lg:order-4 uppercase font-semibold focus:outline-none"
+              >
                 Videos
               </a>
             </div>
@@ -136,7 +133,8 @@ export default function Navbar({ fixed }) {
             <div className="hidden lg:order-3 lg:flex flex-1 items-center justify-end">
               <a
                 href="/about"
-                className="block px-2 lg:px-4 uppercase font-semibold focus:outline-none">
+                className="block px-2 lg:px-4 uppercase font-semibold focus:outline-none"
+              >
                 About Us
               </a>
               <MenuItems align="right" title="editions">
@@ -149,18 +147,18 @@ export default function Navbar({ fixed }) {
                   {['English', 'Telugu', 'Kannada'].map((item) => (
                     <a
                       className="flex items-center justify-start px-2 py-4 font-semibold rounded hover:opacity-50  border-b border-gray-200"
-                      href={item}>
+                      href={item}
+                    >
                       <svg
                         className="fill-current text-gray-800  w-20 h-20"
                         xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20">
+                        viewBox="0 0 20 20"
+                      >
                         <title>Twitter</title>
                         <path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74 11.65 11.65 0 0 1-8.45-4.3 4.1 4.1 0 0 0 1.27 5.49C2.01 8.2 1.37 8.03.8 7.7v.05a4.1 4.1 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 16.4a11.62 11.62 0 0 0 6.29 1.84"></path>
                       </svg>
                       <div className="flex flex-col px-4">
-                        <h4 className="text-xl font-medium uppercase">
-                          {item}
-                        </h4>
+                        <h4 className="text-xl font-medium uppercase">{item}</h4>
                         <p className="text-gray-600">
                           Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
                         </p>
@@ -171,7 +169,8 @@ export default function Navbar({ fixed }) {
               </MenuItems>
               <button
                 type="button"
-                className="block lg:px-4 uppercase font-semibold focus:outline-none bg-gray-300 rounded p-2">
+                className="block lg:px-4 uppercase font-semibold focus:outline-none bg-gray-300 rounded p-2"
+              >
                 Subscribe
               </button>
             </div>

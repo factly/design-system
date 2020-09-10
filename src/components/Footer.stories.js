@@ -1,6 +1,9 @@
 import React from 'react';
 
 import Footer from './Footer';
+/**
+ * TODO:
+ */
 
 export default {
   title: 'Navigation/Footer',
@@ -8,4 +11,4 @@ export default {
 };
 
 export const Basic = () => <Footer />;
-export const Full = () => <Footer full />
+export const Full = () => <Footer full />;

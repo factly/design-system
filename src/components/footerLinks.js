@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * TODO:
+ */
+
 function LinkTag({ text, to }) {
   return (
     <li>

@@ -1,5 +1,14 @@
 import React from 'react';
 
+/**
+ * TODO: Change the data structure of props
+ * TODO: Make images more responsive
+ * TODO: Make most of the items optional
+ * TODO: Possibly increase padding
+ * TODO: Probably change the name of the component to "Card"
+ * TODO: Refactor to decrease repetition of code
+ */
+
 const StoryCard = ({
   storyData,
   cardStyle = 'basic',
@@ -10,12 +19,13 @@ const StoryCard = ({
     <>
       {cardStyle === 'basic' && (
         <article
-          className={`flex flex-col leading-tight border-b last:border-b-0 p-6 border-gray-200 ${cardStyle}`}>
+          className={`flex flex-col leading-tight border-b last:border-b-0 p-6 border-gray-200 ${cardStyle}`}
+        >
           <a
             href={storyData.slug}
-            className={`w-full flex vertical horizontal no-underline hover:no-underline`}>
-            <div
-              className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
+            className={`w-full flex vertical horizontal no-underline hover:no-underline`}
+          >
+            <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
               <img
                 alt="article thumbnail"
                 src={storyData.media.source_url}
@@ -28,25 +38,23 @@ const StoryCard = ({
               </p>
               <div
                 id={`nav-0`}
-                className={`w-full font-bold font-sans text-lg text-gray-800 active`}>
+                className={`w-full font-bold font-sans text-lg text-gray-800 active`}
+              >
                 {storyData.title}
               </div>
               {excerpt && (
-                <p className="text-gray-800 font-sans text-base pt-2">
-                  {storyData.excerpt}
-                </p>
+                <p className="text-gray-800 font-sans text-base pt-2">{storyData.excerpt}</p>
               )}
               <div className="flex mt-auto pt-2">
                 <div
-                  className={`flex flex-col w-full vertical horizontal justify-between items-start`}>
+                  className={`flex flex-col w-full vertical horizontal justify-between items-start`}
+                >
                   <div className="flex flex-row flex-wrap">
                     <p className="text-gray-600 text-xs md:text-sm mr-2 normal-case">
                       {storyData.degaUsers[0].display_name}
                     </p>
                   </div>
-                  <p className="text-gray-600 text-xs md:text-sm">
-                    {storyData.published_date}
-                  </p>
+                  <p className="text-gray-600 text-xs md:text-sm">{storyData.published_date}</p>
                 </div>
               </div>
             </div>
@@ -56,11 +64,8 @@ const StoryCard = ({
 
       {cardStyle === 'featured' && (
         <article className="bg-white rounded-t rounded-b-none overflow-hidden px-6">
-          <a
-            href={storyData.slug}
-            className="flex flex-wrap no-underline hover:no-underline">
-            <div
-              className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
+          <a href={storyData.slug} className="flex flex-wrap no-underline hover:no-underline">
+            <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
               <img
                 alt={storyData.media.alt_text}
                 src={storyData.media.source_url}
@@ -68,15 +73,11 @@ const StoryCard = ({
               />
             </div>
 
-            <p className="w-full text-gray-600 text-xs md:text-sm pt-2">
-              {storyData.sub_title}
-            </p>
+            <p className="w-full text-gray-600 text-xs md:text-sm pt-2">{storyData.sub_title}</p>
             <div className="w-full font-bold text-xl leading-tight text-gray-900 break-words active">
               {storyData.title}
             </div>
-            <p className="text-gray-800 font-sans text-lg pt-2 break-words">
-              {storyData.excerpt}
-            </p>
+            <p className="text-gray-800 font-sans text-lg pt-2 break-words">{storyData.excerpt}</p>
           </a>
           <div className="flex-none mt-auto py-4">
             <div className="flex items-center justify-between">
@@ -85,21 +86,20 @@ const StoryCard = ({
                   {storyData.degaUsers[0].display_name}
                 </p>
               </div>
-              <p className="text-gray-600 text-xs md:text-sm">
-                {storyData.published_date}
-              </p>
+              <p className="text-gray-600 text-xs md:text-sm">{storyData.published_date}</p>
             </div>
           </div>
         </article>
       )}
       {cardStyle === 'vertical' && (
         <article
-          className={`flex flex-col leading-tight border-b last:border-b-0 p-6 border-gray-200 ${cardStyle}`}>
+          className={`flex flex-col leading-tight border-b last:border-b-0 p-6 border-gray-200 ${cardStyle}`}
+        >
           <a
             href={storyData.slug}
-            className={`w-full flex vertical no-underline hover:no-underline`}>
-            <div
-              className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
+            className={`w-full flex vertical no-underline hover:no-underline`}
+          >
+            <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
               <img
                 alt={storyData.media.alt_text}
                 src={storyData.media.source_url}
@@ -112,24 +112,22 @@ const StoryCard = ({
               </p>
               <div
                 id={`nav-0`}
-                className={`w-full font-bold font-sans text-lg text-gray-800 active`}>
+                className={`w-full font-bold font-sans text-lg text-gray-800 active`}
+              >
                 {storyData.title}
               </div>
-              <p className="text-gray-800 font-sans text-base pt-2">
-                {storyData.excerpt}
-              </p>
+              <p className="text-gray-800 font-sans text-base pt-2">{storyData.excerpt}</p>
 
               <div className="flex mt-auto pt-2">
                 <div
-                  className={`flex flex-col w-full vertical horizontal justify-between items-start`}>
+                  className={`flex flex-col w-full vertical horizontal justify-between items-start`}
+                >
                   <div className="flex flex-row flex-wrap">
                     <p className="text-gray-600 text-xs md:text-sm mr-2 normal-case">
                       {storyData.degaUsers[0].display_name}
                     </p>
                   </div>
-                  <p className="text-gray-600 text-xs md:text-sm">
-                    {storyData.published_date}
-                  </p>
+                  <p className="text-gray-600 text-xs md:text-sm">{storyData.published_date}</p>
                 </div>
               </div>
             </div>

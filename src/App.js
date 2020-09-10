@@ -25,7 +25,8 @@ const App = () => {
       <Navbar />
       <div
         style={{ maxWidth: '1920px' }}
-        className="w-full text-xl md:text-2xl text-gray-800 leading-normal lg:px-6 mt-10 pt-4 mx-auto">
+        className="w-full text-xl md:text-2xl text-gray-800 leading-normal lg:px-6 mt-10 pt-4 mx-auto"
+      >
         <div className="flex flex-row justify-between lg:border-b">
           {/* Left sidebar */}
           <div className="sidebar xl:flex xl:w-1/4 border-r sticky">
@@ -37,7 +38,8 @@ const App = () => {
                 <div className="flex flex-col leading-tight border-b last:border-b-0 py-2 px-6 border-gray-200">
                   <a
                     href={`#${item.slug}`}
-                    className={`w-full flex no-underline hover:no-underline font-bold font-sans text-base text-gray-800`}>
+                    className={`w-full flex no-underline hover:no-underline font-bold font-sans text-base text-gray-800`}
+                  >
                     {item.name}
                   </a>
                 </div>
@@ -54,11 +56,7 @@ const App = () => {
           {/* Main/ Middle part of the homepage */}
           <div className="main-content w-full md:w-3/4 xl:w-2/4 mx-auto">
             {/* Featured Card */}
-            <StoryCard
-              cardStyle="featured"
-              storyData={data.posts[0]}
-              imageSize="w-full h-64"
-            />
+            <StoryCard cardStyle="featured" storyData={data.posts[0]} imageSize="w-full h-64" />
             {/* Articles list */}
             <div className="flex flex-col py-6">
               {categories.map((category, index) => (
@@ -93,7 +91,8 @@ const App = () => {
                     <div className="loader" key={0}>
                       Loading ...
                     </div>
-                  }>
+                  }
+                >
                   {postItems.map((item, index) => (
                     <StoryCard
                       cardStyle="basic"
@@ -113,11 +112,7 @@ const App = () => {
                 <h5 className="heading">Top In Factchecks</h5>
               </div>
               {factchecks.map((item, index) => (
-                <StoryCard
-                  cardStyle="vertical"
-                  storyData={item}
-                  imageSize="h-40"
-                />
+                <StoryCard cardStyle="vertical" storyData={item} imageSize="h-40" />
               ))}
               <Footer />
             </div>
