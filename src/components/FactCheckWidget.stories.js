@@ -13,7 +13,7 @@ export default {
 /* const claims = [
   {
     claimant: { name: 'Jaggi Vasudev' },
-    rating: { slug: 'false', media: { src: 'https://source.unsplash.com/100x100', alt: 'blah' } },
+    rating: { slug: 'false', medium: { url: 'https://source.unsplash.com/100x100', alt_text: 'blah' } },
     claim:
       'During Partition, the minority population which stayed back in Pakistan was 23% and 30% in West and East Pakistan respectively.',
     review:
@@ -23,7 +23,7 @@ export default {
     claimant: { name: 'Jaggi Vasudev' },
     rating: {
       slug: 'misleading',
-      media: { src: 'https://source.unsplash.com/100x100', alt: 'blah' },
+      medium: { url: 'https://source.unsplash.com/100x100', alt_text: 'blah' },
     },
     claim: 'Birth certificate, Aadhar, Voter ID etc and other documents as proof for NRC',
     review:
@@ -33,7 +33,7 @@ export default {
     claimant: { name: 'Facebook' },
     rating: {
       slug: 'misleading',
-      media: { src: 'https://source.unsplash.com/100x100', alt: 'blah' },
+      medium: { url: 'https://source.unsplash.com/100x100', alt_text: 'blah' },
     },
     claim: 'A clip from a movie, ‘The Flu’, is being falsely shared as ‘Situation in Italy’',
     review: 'False.',

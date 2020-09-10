@@ -13,8 +13,8 @@ const Author = ({ authors, categories, date }) => {
           <img
             className="w-16 h-16 rounded-full mr-2 avatar"
             data-tippy-content={author.display_name}
-            src={author.media.img}
-            alt={author.media.alt}
+            src={author.medium.url}
+            alt={author.medium.alt_text}
           />
         ))}
       </div>

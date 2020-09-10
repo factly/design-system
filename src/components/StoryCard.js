@@ -27,8 +27,8 @@ const StoryCard = ({
           >
             <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
               <img
-                alt="article thumbnail"
-                src={storyData.media.source_url}
+                alt={storyData.medium.alt_text}
+                src={storyData.medium.url}
                 className="h-full w-full object-cover rounded"
               />
             </div>
@@ -67,8 +67,8 @@ const StoryCard = ({
           <a href={storyData.slug} className="flex flex-wrap no-underline hover:no-underline">
             <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
               <img
-                alt={storyData.media.alt_text}
-                src={storyData.media.source_url}
+                alt={storyData.medium.alt_text}
+                src={storyData.medium.url}
                 className="h-full w-full rounded object-cover"
               />
             </div>
@@ -101,8 +101,8 @@ const StoryCard = ({
           >
             <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
               <img
-                alt={storyData.media.alt_text}
-                src={storyData.media.source_url}
+                alt={storyData.medium.alt_text}
+                src={storyData.medium.url}
                 className="h-full w-full object-cover rounded"
               />
             </div>

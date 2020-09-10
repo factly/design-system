@@ -11,8 +11,10 @@ export default {
   component: Excerpt,
 };
 const data = {
-  img: 'https://source.unsplash.com/640x360',
-  alt: 'hello',
+  medium: {
+    url: 'https://source.unsplash.com/640x360',
+    alt_text: 'hello',
+  },
   excerpt:
     'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque recusandae et, ipsa quis impedit deserunt dolore assumenda suscipit asperiores expedita eum esse laborum quod illum voluptatem repudiandae dolorum atque porro.',
 };

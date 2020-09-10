@@ -129,8 +129,8 @@ function FactCheckWidget({ claims }) {
                     <div className="flex">
                       <div dangerouslySetInnerHTML={{ __html: claim.description }} />
                       <img
-                        alt={claim.rating.medium.alt}
-                        src={claim.rating.medium.src}
+                        src={claim.rating.medium.url}
+                        alt={claim.rating.medium.alt_text}
                         className="w-1/6 h-full rounded-t m-2"
                       />
                     </div>

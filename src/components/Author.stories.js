@@ -14,17 +14,17 @@ export default {
 const authors = [
   {
     display_name: 'Shashi',
-    media: {
-      img: 'https://source.unsplash.com/150x150/?man',
-      alt: 'Shashi ',
+    medium: {
+      url: 'https://source.unsplash.com/150x150/?man',
+      alt_text: 'Shashi ',
     },
     slug: 'shashi',
   },
   {
     display_name: 'Rakesh',
-    media: {
-      img: 'https://source.unsplash.com/150x150/?person',
-      alt: 'Rakesh',
+    medium: {
+      url: 'https://source.unsplash.com/150x150/?person',
+      alt_text: 'Rakesh',
     },
     slug: 'rakesh',
   },

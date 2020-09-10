@@ -29,8 +29,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link2",
       "__typename": "story",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "business image"
       },
       "featured": {},
@@ -51,8 +51,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link2",
       "__typename": "story",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "business image"
       },
       "featured": {},
@@ -73,8 +73,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link2",
       "__typename": "story",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "business image"
       },
       "featured": {},
@@ -95,8 +95,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link2",
       "__typename": "story",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "business image"
       },
       "featured": {},
@@ -117,8 +117,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link2",
       "__typename": "story",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "business image"
       },
       "featured": {},
@@ -139,8 +139,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link2",
       "__typename": "story",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "business image"
       },
       "featured": {},
@@ -163,8 +163,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -188,8 +188,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -213,8 +213,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -238,8 +238,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -263,8 +263,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -288,8 +288,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -313,8 +313,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -338,8 +338,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -363,8 +363,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -388,8 +388,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {
@@ -413,8 +413,8 @@
       "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eius temporibus soluta ex, repudiandae asperiores rerum obcaecati quos optio, incidunt quas iste? Saepe voluptas nam quisquam tempore totam itaque voluptates?",
       "slug": "link1",
       "__typename": "factcheck",
-      "media": {
-        "source_url": "https://source.unsplash.com/200x200?business",
+      "medium": {
+        "url": "https://source.unsplash.com/200x200?business",
         "alt_text": "doubling farmer's income image"
       },
       "tags": {

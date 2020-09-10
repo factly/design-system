@@ -10,8 +10,8 @@ const Excerpt = ({ data, img = true }) => {
       {img && (
         <div className="flex-1">
           <img
-            src={data.img}
-            alt={data.alt}
+            src={data.medium.url}
+            alt={data.medium.alt_text}
             className="w-full h-full rounded-t rounded-l-none md:rounded-t-none md:rounded-l object-cover"
           />
         </div>

@@ -26,8 +26,8 @@ const Post = ({ post }) => {
       <div className="flex flex-col md:flex-row flex-wrap my-6 bg-gray-200">
         <div className="flex-1">
           <img
-            src={post.media.url}
-            alt={post.media.alt}
+            src={post.medium.url}
+            alt={post.medium.alt_text}
             className="w-full h-full rounded-t rounded-l-none md:rounded-t-none md:rounded-l object-cover"
           />
         </div>

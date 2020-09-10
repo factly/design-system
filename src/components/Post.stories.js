@@ -3,7 +3,7 @@ import React from 'react';
 import Post from './Post';
 
 /**
- * TODO: Know about "status","medium","is_sticky", "is_highlighted", "format","User", diff b/w "desc" and "excerpt","Category" and "Tag"  and date format returned.
+ * TODO: Know about "status","medium","is_sticky", "is_highlighted", "format","User", and date format returned.
  * TODO:
  */
 
@@ -23,9 +23,9 @@ const post = {
   users: [
     {
       display_name: 'Rakesh',
-      media: {
-        img: 'https://source.unsplash.com/150x150/?man',
-        alt: 'Rakesh',
+      medium: {
+        url: 'https://source.unsplash.com/150x150/?man',
+        alt_text: 'Rakesh',
       },
       slug: 'rakesh',
     },
@@ -40,9 +40,9 @@ const post = {
       slug: 'politics',
     },
   ],
-  media: {
+  medium: {
     url: 'https://source.unsplash.com/640x360',
-    alt: 'Lorem, ipsum dolor sit amet',
+    alt_text: 'Lorem, ipsum dolor sit amet',
   },
   excerpt:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reprehenderit ipsam nam consequuntur aliquid excepturi corporis ipsum! Quae deleniti asperiores dolores eum quod incidunt repudiandae amet quos sunt dignissimos. Corrupti.',
@@ -70,9 +70,9 @@ const factcheck = {
   users: [
     {
       display_name: 'Rakesh',
-      media: {
-        img: 'https://source.unsplash.com/150x150/?man',
-        alt: 'Rakesh',
+      medium: {
+        url: 'https://source.unsplash.com/150x150/?man',
+        alt_text: 'Rakesh',
       },
       slug: 'rakesh',
     },
@@ -87,9 +87,9 @@ const factcheck = {
       slug: 'politics',
     },
   ],
-  media: {
+  medium: {
     url: 'https://source.unsplash.com/640x360',
-    alt: 'Lorem, ipsum dolor sit amet',
+    alt_text: 'Lorem, ipsum dolor sit amet',
   },
   excerpt:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reprehenderit ipsam nam consequuntur aliquid excepturi corporis ipsum! Quae deleniti asperiores dolores eum quod incidunt repudiandae amet quos sunt dignissimos. Corrupti.',
   description: '<p><span style="color: rgb(59, 59, 59); background-color: rgb(255, 255, 255);">So clearly, it was not a case simply submitting one of the given documents. Factly has earlier provided answers to&nbsp;</span><a href="https://factlystag.wpengine.com/part-2-faqs-on-the-nrc-issue/" rel="noopener noreferrer" target="_blank" style="color: rgb(229, 78, 83); background-color: rgb(255, 255, 255);">some FAQs</a><span style="color: rgb(59, 59, 59); background-color: rgb(255, 255, 255);">&nbsp;on the NRC.</span></p><p><br></p><p><span style="color: rgb(59, 59, 59);">As per the&nbsp;</span><a href="http://www.nrcassam.nic.in/pdf/English%20-Press%20Brief%2031st%20August%202019.pdf" rel="noopener noreferrer" target="_blank" style="color: rgb(229, 78, 83); background-color: rgb(255, 255, 255);">draft NRC</a><span style="color: rgb(59, 59, 59); background-color: rgb(255, 255, 255);">&nbsp;published in 2019 for Assam, 19 lakh people have been left out of the NRC list, about 5% of the population of Assam.</span></p><p><br></p><p><span style="color: rgb(59, 59, 59);">In an interview recently, Union Home Minister,&nbsp;Amit Shah&nbsp;</span><a href="https://www.youtube.com/watch?v=mENwVWT4Uvc" rel="noopener noreferrer" target="_blank" style="color: rgb(229, 78, 83); background-color: rgb(255, 255, 255);">did state that</a><span style="color: rgb(59, 59, 59); background-color: rgb(255, 255, 255);">&nbsp;Aadhaar, Voter ID etc are not proofs of Citizenship.</span></p>',
@@ -129,8 +129,8 @@ const factcheck = {
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupted',
         tag_line: 'lorem',
         medium: {
-          src: 'https://source.unsplash.com/150x150',
-          alt: 'loremmmm',
+          url: 'https://source.unsplash.com/150x150',
+          alt_text: 'loremmmm',
         },
         space_id: 21,
       },
@@ -144,8 +144,8 @@ const factcheck = {
           'While there is no conclusive data regarding share of minorities, Hindus who stayed back is West Pakistan as of 1951 were only 1.6% , much less than 23% quoted by Jaggi Vasudev. Even the number quoted for East Pakistan is wrong. Hence the statement is False.',
         numeric_value: '1',
         medium: {
-          src: 'https://source.unsplash.com/150x150',
-          alt: 'loremmm',
+          url: 'https://source.unsplash.com/150x150',
+          alt_text: 'loremmm',
         },
         space_id: 21,
       },
@@ -174,8 +174,8 @@ const factcheck = {
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupted',
         tag_line: 'lorem',
         medium: {
-          src: 'https://source.unsplash.com/150x150',
-          alt: 'loremmmm',
+          url: 'https://source.unsplash.com/150x150',
+          alt_text: 'loremmmm',
         },
         space_id: 21,
       },
@@ -188,8 +188,8 @@ const factcheck = {
         description: '',
         numeric_value: '2',
         medium: {
-          src: 'https://source.unsplash.com/150x150',
-          alt: 'loremmm',
+          url: 'https://source.unsplash.com/150x150',
+          alt_text: 'loremmm',
         },
         space_id: 21,
       },
