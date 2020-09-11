@@ -53,7 +53,7 @@ const claims = [
     checked_date: '30-05-1990',
     claim_source: 'Facebook',
     description:
-      'During Partition, the minority population which stayed back in Pakistan was 23% and 30% in West and East Pakistan respectively.',
+      '{"time":1599811473454,"blocks":[{"type":"header","data":{"text":"During Partition, the minority population which stayed back in Pakistan was 23% and 30% in West and East Pakistan respectively.","level":2}}],"version":"2.18.0"}',
     review:
       'While there is no conclusive data regarding share of minorities, Hindus who stayed back is West Pakistan as of 1951 were only 1.6% , much less than 23% quoted by Jaggi Vasudev. Even the number quoted for East Pakistan is wrong. Hence the statement is False.',
     review_tag_line: 'String',
@@ -80,7 +80,7 @@ const claims = [
       name: 'False',
       slug: 'false',
       description:
-        'While there is no conclusive data regarding share of minorities, Hindus who stayed back is West Pakistan as of 1951 were only 1.6% , much less than 23% quoted by Jaggi Vasudev. Even the number quoted for East Pakistan is wrong. Hence the statement is False.',
+        '{"time":1599811473454,"blocks":[{"type":"header","data":{"text":"While there is no conclusive data regarding share of minorities, Hindus who stayed back is West Pakistan as of 1951 were only 1.6% , much less than 23% quoted by Jaggi Vasudev. Even the number quoted for East Pakistan is wrong. Hence the statement is False.","level":2}}],"version":"2.18.0"}',
       numeric_value: '1',
       medium: {
         src: 'https://source.unsplash.com/150x150',
@@ -98,7 +98,8 @@ const claims = [
     claim_date: '25-05-1990',
     checked_date: '30-05-1990',
     claim_source: 'Facebook',
-    description: 'Birth certificate, Aadhar, Voter ID etc and other documents as proof for NRC',
+    description:
+      '{"time":1599811473454,"blocks":[{"type":"header","data":{"text":"Birth certificate, Aadhar, Voter ID etc and other documents as proof for NRC","level":2}}],"version":"2.18.0"}',
     review:
       'While there is no official notification on the documents which needs to be provided for NRC, the experience from Assam NRC shows that proving citizenship is not about simply submitting one of the documents as stated by Jaggi Vasudev. Hence this statement is Misleading.',
     review_tag_line: 'String',

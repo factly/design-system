@@ -2,8 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import parseEditorJsData from './../utils/parseEditorJsData';
 
 /**
+ * TODO: Make image optional for rating,claimant,author
  * TODO: Add resize observer
  * TODO: Disabling the buttons for first and last buttons
  * TODO: Fix the resize issue on canvas for basic widget
@@ -129,12 +131,16 @@ function FactCheckWidget({ claims }) {
                   >
                     <h2 className="font-bold P-4">Claim</h2>
                     <div className="flex">
-                      <div dangerouslySetInnerHTML={{ __html: claim.description }} />
-                      <img
-                        src={claim.rating.medium.url}
-                        alt={claim.rating.medium.alt_text}
-                        className="w-1/6 h-full rounded-t m-2"
+                      <div
+                        dangerouslySetInnerHTML={{ __html: parseEditorJsData(claim.description) }}
                       />
+                      {claim.rating.medium && (
+                        <img
+                          src={claim.rating.medium.url}
+                          alt={claim.rating.medium.alt_text}
+                          className="w-1/6 h-full rounded-t m-2"
+                        />
+                      )}
                     </div>
                   </div>
                   <div className="flex flex-col p-4 border-b">

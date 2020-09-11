@@ -4,6 +4,7 @@ import ShareButtonGroup from './ShareButtonGroup';
 import FactCheckWidget from './FactCheckWidget';
 import Tag from './Tag';
 import Excerpt from './Excerpt';
+import parseEditorJsData from './../utils/parseEditorJsData';
 
 /**
  * TODO:
@@ -28,10 +29,14 @@ const Post = ({ post }) => {
 
       <div className="w-full lg:w-3/4 mx-auto font-sans text-xl">
         {post.claims && <FactCheckWidget claims={post.claims} />}
-        <div
+        {/* <div
           className="my-6 pb-6 border-b text-gray-800"
           dangerouslySetInnerHTML={{ __html: post.description }}
-        ></div>
+        ></div> */}
+        <div
+          className="my-6 pb-6 border-b text-gray-800"
+          dangerouslySetInnerHTML={{ __html: parseEditorJsData(post.description) }}
+        />
         <div className="flex flex-wrap pb-6 border-b">
           <div className="flex flex-wrap">
             {post.tags.map((tag, i) => (
