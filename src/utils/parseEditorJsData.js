@@ -1,26 +1,30 @@
 const parseEditorJsData = (desc) => {
-  let data = JSON.parse(desc);
-  const { blocks } = data;
+  const { blocks } = desc;
+
   let htm = blocks.map((block) => {
     const { data } = block;
+    let elem = '';
     switch (block.type) {
       case 'header':
-        return `<h${data.level}> ${data.text} </h${data.level}>`;
+        elem = `<h${data.level}> ${data.text} </h${data.level}>`;
+        break;
 
       case 'paragraph':
-        return `<p> ${data.text} </p>`;
+        elem = `<p> ${data.text} </p>`;
+        break;
 
       case 'list':
         let style = data.style === 'unordered' ? 'ul' : 'ol';
         let list = data.items.map((i) => `<li> ${i} </li>`).reduce((a, c) => a + c, '');
-        return `<${style}> ${list} </${style}>`;
+        elem = `<${style}> ${list} </${style}>`;
+        break;
 
       default:
         break;
     }
-    return console.log(block.type);
+    return elem;
   });
-  console.log(htm.join(''));
+
   return htm.join('');
 };
 

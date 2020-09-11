@@ -29,7 +29,8 @@
     "build:css": "postcss ./src/assets/css/tailwind.css -o ./src/assets/css/main.css",
     "watch:css": "postcss ./src/assets/css/tailwind.css -o ./src/assets/css/main.css -w",
     "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json,css,scss,md}\"",
-    "format": "prettier --write \"**/*.{js,jsx,yml,yaml,json,css,scss,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,yml,yaml,json,css,scss,md}\"",
+    "chromatic": "npx chromatic --project-token zfemlqwqd9"
   },
   "eslintConfig": {
     "extends": "react-app"

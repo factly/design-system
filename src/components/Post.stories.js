@@ -12,6 +12,72 @@ export default {
   component: Post,
 };
 
+const postDesc = {
+  time: 1599811473454,
+  blocks: [
+    {
+      type: 'header',
+      data: {
+        text: 'Editor.js',
+        level: 2,
+      },
+    },
+    {
+      type: 'paragraph',
+      data: {
+        text:
+          'Hey. Meet the new Editor. On this page you can see it in action — try to edit this text.',
+      },
+    },
+    {
+      type: 'header',
+      data: {
+        text: 'Key features',
+        level: 3,
+      },
+    },
+    {
+      type: 'list',
+      data: {
+        style: 'unordered',
+        items: [
+          'It is a block-styled editor',
+          'It returns clean data output in JSON',
+          'Designed to be extendable and pluggable with a simple API',
+        ],
+      },
+    },
+  ],
+  version: '2.18.0',
+};
+const desc1 = {
+  time: 1599811473454,
+  blocks: [
+    {
+      type: 'header',
+      data: {
+        text:
+          'During Partition, the minority population which stayed back in Pakistan was 23% and 30% in West and East Pakistan respectively.',
+        level: 2,
+      },
+    },
+  ],
+  version: '2.18.0',
+};
+const desc2 = {
+  time: 1599811473454,
+  blocks: [
+    {
+      type: 'header',
+      data: {
+        text: 'Birth certificate, Aadhar, Voter ID etc and other documents as proof for NRC',
+        level: 2,
+      },
+    },
+  ],
+  version: '2.18.0',
+};
+
 const post = {
   id: 11,
   created_date: '01-01-1998',
@@ -46,8 +112,7 @@ const post = {
   },
   excerpt:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reprehenderit ipsam nam consequuntur aliquid excepturi corporis ipsum! Quae deleniti asperiores dolores eum quod incidunt repudiandae amet quos sunt dignissimos. Corrupti.',
-  description:
-    '{"time":1599811473454,"blocks":[{"type":"header","data":{"text":"Editor.js","level":2}},{"type":"paragraph","data":{"text":"Hey. Meet the new Editor. On this page you can see it in action — try to edit this text."}},{"type":"header","data":{"text":"Key features","level":3}},{"type":"list","data":{"style":"unordered","items":["It is a block-styled editor","It returns clean data output in JSON","Designed to be extendable and pluggable with a simple API"]}}],"version":"2.18.0"}',
+  description: postDesc,
   tags: [
     {
       name: 'Politics',
@@ -93,7 +158,7 @@ const factcheck = {
     alt_text: 'Lorem, ipsum dolor sit amet',
   },
   excerpt:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reprehenderit ipsam nam consequuntur aliquid excepturi corporis ipsum! Quae deleniti asperiores dolores eum quod incidunt repudiandae amet quos sunt dignissimos. Corrupti.',
-  description: '{"time":1599811473454,"blocks":[{"type":"header","data":{"text":"Editor.js","level":2}},{"type":"paragraph","data":{"text":"Hey. Meet the new Editor. On this page you can see it in action — try to edit this text."}},{"type":"header","data":{"text":"Key features","level":3}},{"type":"list","data":{"style":"unordered","items":["It is a block-styled editor","It returns clean data output in JSON","Designed to be extendable and pluggable with a simple API"]}}],"version":"2.18.0"}',
+  description: postDesc,
   tags: [
     {
       name: 'Politics',
@@ -115,7 +180,7 @@ const factcheck = {
       claim_date: '25-05-1990',
       checked_date: '30-05-1990',
       claim_source: 'Facebook',
-      description: 'During Partition, the minority population which stayed back in Pakistan was 23% and 30% in West and East Pakistan respectively.',
+      description: desc1,
       review:
         'While there is no conclusive data regarding share of minorities, Hindus who stayed back is West Pakistan as of 1951 were only 1.6% , much less than 23% quoted by Jaggi Vasudev. Even the number quoted for East Pakistan is wrong. Hence the statement is False.',
       review_tag_line: 'String',
@@ -141,8 +206,7 @@ const factcheck = {
         updated_date: '20-12-2020',
         name: 'False',
         slug: 'false',
-        description:
-          'While there is no conclusive data regarding share of minorities, Hindus who stayed back is West Pakistan as of 1951 were only 1.6% , much less than 23% quoted by Jaggi Vasudev. Even the number quoted for East Pakistan is wrong. Hence the statement is False.',
+        description:'',
         numeric_value: '1',
         medium: {
           url: 'https://source.unsplash.com/150x150',
@@ -160,7 +224,7 @@ const factcheck = {
       claim_date: '25-05-1990',
       checked_date: '30-05-1990',
       claim_source: 'Facebook',
-      description: 'Birth certificate, Aadhar, Voter ID etc and other documents as proof for NRC',
+      description: desc2,
       review:
         'While there is no official notification on the documents which needs to be provided for NRC, the experience from Assam NRC shows that proving citizenship is not about simply submitting one of the documents as stated by Jaggi Vasudev. Hence this statement is Misleading.',
       review_tag_line: 'String',
