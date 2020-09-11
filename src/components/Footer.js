@@ -55,7 +55,7 @@ function Footer({ full, className }) {
                 </h5>
                 <div className="mt-6 flex">
                   {[1, 2, 3].map((item) => (
-                    <a href="/" target="_blank" className="mr-2">
+                    <a href="/" key={item} target="_blank" className="mr-2">
                       <svg
                         className="fill-current text-gray-400  w-5 h-5"
                         xmlns="http://www.w3.org/2000/svg"

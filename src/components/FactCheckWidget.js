@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { SliderArrowLeft, SliderArrowRight } from '../assets/icons';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faChevronLeft,faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 /**
  * TODO: Add resize observer
@@ -69,7 +71,7 @@ function FactCheckWidget({ claims }) {
                 disable.left && 'cursor-not-allowed opacity-50'
               }`}
             >
-              <SliderArrowLeft className="fill-current w-4 h-4"></SliderArrowLeft>
+              <FontAwesomeIcon icon={faChevronLeft} className="fill-current w-4 h-4" />
             </button>
             <h2 className="w-full py-2 heading text-center">List of claims</h2>
             <button
@@ -81,7 +83,7 @@ function FactCheckWidget({ claims }) {
                 disable.right && 'cursor-not-allowed opacity-50'
               }`}
             >
-              <SliderArrowRight className="fill-current w-4 h-4"></SliderArrowRight>
+            <FontAwesomeIcon icon={faChevronRight} className="fill-current w-4 h-4" />
             </button>
           </div>
           <div ref={sliderElement} className="flex overflow-x-auto scrolling-touch slider pb-6">

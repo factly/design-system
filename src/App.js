@@ -34,8 +34,8 @@ const HomePage = () => {
               <div className="mb-4 pb-4 border-b px-6">
                 <h5 className="heading">Headlines</h5>
               </div>
-              {categories.map((item, index) => (
-                <div className="flex flex-col leading-tight border-b last:border-b-0 py-2 px-6 border-gray-200">
+              {categories.map((item, i) => (
+                <div key={i} className="flex flex-col leading-tight border-b last:border-b-0 py-2 px-6 border-gray-200">
                   <a
                     href={`#${item.slug}`}
                     className={`w-full flex no-underline hover:no-underline font-bold font-sans text-base text-gray-800`}
@@ -59,15 +59,16 @@ const HomePage = () => {
             <StoryCard cardStyle="featured" storyData={data.posts[0]} imageSize="w-full h-64" />
             {/* Articles list */}
             <div className="flex flex-col py-6">
-              {categories.map((category, index) => (
-                <div id={category.slug}>
+              {categories.map((category, i) => (
+                <div key={i} id={category.slug}>
                   <div className="mb-4 pb-4 border-b px-6">
                     <h5 className="font-semibold text-2xl leading-tight text-gray-900">
                       {category.name}
                     </h5>
                   </div>
-                  {posts.slice(0, 4).map((item, index) => (
+                  {posts.slice(0, 4).map((item, i) => (
                     <StoryCard
+                    key={i}
                       cardStyle="basic"
                       storyData={item}
                       excerpt
@@ -93,8 +94,9 @@ const HomePage = () => {
                     </div>
                   }
                 >
-                  {postItems.map((item, index) => (
+                  {postItems.map((item, i) => (
                     <StoryCard
+                    key={i}
                       cardStyle="basic"
                       storyData={item}
                       excerpt
@@ -111,8 +113,8 @@ const HomePage = () => {
               <div className="mb-4 pb-4 border-b px-6">
                 <h5 className="heading">Top In Factchecks</h5>
               </div>
-              {factchecks.map((item, index) => (
-                <StoryCard cardStyle="vertical" storyData={item} imageSize="h-40" />
+              {factchecks.map((item, i) => (
+                <StoryCard cardStyle="vertical" key={i} storyData={item} imageSize="h-40" />
               ))}
               <Footer />
             </div>

@@ -3,6 +3,7 @@ import Author from './Author';
 import ShareButtonGroup from './ShareButtonGroup';
 import FactCheckWidget from './FactCheckWidget';
 import Tag from './Tag';
+import Excerpt from './Excerpt';
 
 /**
  * TODO:
@@ -23,19 +24,7 @@ const Post = ({ post }) => {
           <ShareButtonGroup data={{ url: post.slug, title: post.title }} />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row flex-wrap my-6 bg-gray-200">
-        <div className="flex-1">
-          <img
-            src={post.medium.url}
-            alt={post.medium.alt_text}
-            className="w-full h-full rounded-t rounded-l-none md:rounded-t-none md:rounded-l object-cover"
-          />
-        </div>
-        <div className="flex flex-col flex-1 p-4">
-          <div className="w-full font-bold text-2xl leading-tight text-gray-900">Excerpt</div>
-          <p className="text-gray-800 font-sans text-lg pt-2">{post.excerpt}</p>
-        </div>
-      </div>
+      <Excerpt excerpt={post.excerpt} image={post.medium} />
 
       <div className="w-full lg:w-3/4 mx-auto font-sans text-xl">
         {post.claims && <FactCheckWidget claims={post.claims} />}
@@ -45,8 +34,8 @@ const Post = ({ post }) => {
         ></div>
         <div className="flex flex-wrap pb-6 border-b">
           <div className="flex flex-wrap">
-            {post.tags.map((tag) => (
-              <Tag url={tag.slug} name={tag.name} />
+            {post.tags.map((tag,i) => (
+              <Tag key={i} url={tag.slug} name={tag.name} />
             ))}
           </div>
         </div>
