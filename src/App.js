@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroller';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import StoryCard from './components/StoryCard';
+import Footer from '../src/components/Footer';
+import Navbar from '../src/components/Navbar';
+import StoryCard from '../src/components/StoryCard';
 
 import './assets/css/main.css';
 
-import data from './data.json';
+import data from '../src/data.json';
 
-const App = () => {
+const HomePage = () => {
   const { posts, factchecks, categories } = data;
   const merged = [...posts, ...factchecks];
   const [postItems, setPostItems] = useState(merged.slice(0, 2));
@@ -123,4 +123,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default HomePage;

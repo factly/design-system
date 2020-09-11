@@ -4,4 +4,5 @@
 
 /public
 /fonts
-/css
+/src/assets/css
+main.css
