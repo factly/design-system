@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faChevronLeft,faChevronRight} from '@fortawesome/free-solid-svg-icons'
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 /**
  * TODO: Add resize observer
@@ -83,7 +83,7 @@ function FactCheckWidget({ claims }) {
                 disable.right && 'cursor-not-allowed opacity-50'
               }`}
             >
-            <FontAwesomeIcon icon={faChevronRight} className="fill-current w-4 h-4" />
+              <FontAwesomeIcon icon={faChevronRight} className="fill-current w-4 h-4" />
             </button>
           </div>
           <div ref={sliderElement} className="flex overflow-x-auto scrolling-touch slider pb-6">

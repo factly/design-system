@@ -67,7 +67,11 @@ export default function Navbar() {
                 </div>
                 <div className="flex px-2 py-4">
                   {[1, 2, 3, 4, 5].map((i) => (
-                    <a key={i} className="block px-2 py-1 font-semibold rounded hover:opacity-50" href="/">
+                    <a
+                      key={i}
+                      className="block px-2 py-1 font-semibold rounded hover:opacity-50"
+                      href="/"
+                    >
                       <svg
                         className="fill-current text-gray-400 p-1 w-10 h-10 border rounded bg-gray-800"
                         xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +90,8 @@ export default function Navbar() {
                 </div>
                 <div className="flex flex-col justify-between px-2 py-4">
                   {['about', 'terms'].map((item) => (
-                    <a key={item}
+                    <a
+                      key={item}
                       className="flex items-center justify-start px-2 py-4 font-semibold rounded hover:opacity-50"
                       href={item}
                     >
@@ -115,7 +120,13 @@ export default function Navbar() {
               </MenuItems>
               <MenuItems className="order-1 lg:order-3" title="factcheck">
                 {factchecks.map((factcheck, index) => (
-                  <StoryCard storyData={factcheck} key={index} index={index} excerpt imageSize="w-20 h-20" />
+                  <StoryCard
+                    storyData={factcheck}
+                    key={index}
+                    index={index}
+                    excerpt
+                    imageSize="w-20 h-20"
+                  />
                 ))}
               </MenuItems>
               <a
@@ -145,7 +156,8 @@ export default function Navbar() {
                 </div>
                 <div className="flex flex-col justify-between px-2 py-4">
                   {['English', 'Telugu', 'Kannada'].map((item) => (
-                    <a key={item}
+                    <a
+                      key={item}
                       className="flex items-center justify-start px-2 py-4 font-semibold rounded hover:opacity-50  border-b border-gray-200"
                       href={item}
                     >

@@ -9,9 +9,9 @@ const Author = ({ authors, categories, date }) => {
   return (
     <div className="flex flex-col justify-start items-start py-2">
       <div className="flex flex-row flex-wrap">
-        {authors.map((author,i) => (
+        {authors.map((author, i) => (
           <img
-          key={i}
+            key={i}
             className="w-16 h-16 rounded-full mr-2 avatar"
             data-tippy-content={author.display_name}
             src={author.medium.url}
@@ -29,7 +29,7 @@ const Author = ({ authors, categories, date }) => {
               >
                 {author.display_name}
               </a>
-              {arr.length - i> 1 && ','}
+              {arr.length - i > 1 && ','}
             </React.Fragment>
           ))}
           <span className="font-medium text-lg ">in</span>

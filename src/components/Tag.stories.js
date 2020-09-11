@@ -10,4 +10,4 @@ export default {
   component: Tag,
 };
 
-export const Basic = () => <Tag url='https://www.google.com' name='GoI' />;
+export const Basic = () => <Tag url="https://www.google.com" name="GoI" />;

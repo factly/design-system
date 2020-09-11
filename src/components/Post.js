@@ -34,7 +34,7 @@ const Post = ({ post }) => {
         ></div>
         <div className="flex flex-wrap pb-6 border-b">
           <div className="flex flex-wrap">
-            {post.tags.map((tag,i) => (
+            {post.tags.map((tag, i) => (
               <Tag key={i} url={tag.slug} name={tag.name} />
             ))}
           </div>

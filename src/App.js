@@ -35,7 +35,10 @@ const HomePage = () => {
                 <h5 className="heading">Headlines</h5>
               </div>
               {categories.map((item, i) => (
-                <div key={i} className="flex flex-col leading-tight border-b last:border-b-0 py-2 px-6 border-gray-200">
+                <div
+                  key={i}
+                  className="flex flex-col leading-tight border-b last:border-b-0 py-2 px-6 border-gray-200"
+                >
                   <a
                     href={`#${item.slug}`}
                     className={`w-full flex no-underline hover:no-underline font-bold font-sans text-base text-gray-800`}
@@ -68,7 +71,7 @@ const HomePage = () => {
                   </div>
                   {posts.slice(0, 4).map((item, i) => (
                     <StoryCard
-                    key={i}
+                      key={i}
                       cardStyle="basic"
                       storyData={item}
                       excerpt
@@ -96,7 +99,7 @@ const HomePage = () => {
                 >
                   {postItems.map((item, i) => (
                     <StoryCard
-                    key={i}
+                      key={i}
                       cardStyle="basic"
                       storyData={item}
                       excerpt
