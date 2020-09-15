@@ -33,9 +33,14 @@ const StoryCard = ({
               />
             </div>
             <div className="w-full flex flex-col">
-              <p className="w-full text-gray-600 text-xs md:text-sm pb-1">
-                {storyData.categories.name}
+              <p className="text-blue-500 text-xs px-1">
+                {storyData.categories.map((category, i, arr) => (
+                  <span key={i}>
+                    {category.name} {arr.length - i > 1 && ','}
+                  </span>
+                ))}
               </p>
+
               <div
                 id={`nav-0`}
                 className={`w-full font-bold font-sans text-lg text-gray-800 active`}
@@ -51,10 +56,14 @@ const StoryCard = ({
                 >
                   <div className="flex flex-row flex-wrap">
                     <p className="text-gray-600 text-xs md:text-sm mr-2 normal-case">
-                      {storyData.degaUsers[0].display_name}
+                      {storyData.users.map((user, i, arr) => (
+                        <span key={i}>
+                          {user.display_name} {arr.length - i > 1 && ','}
+                        </span>
+                      ))}
                     </p>
                   </div>
-                  <p className="text-gray-600 text-xs md:text-sm">{storyData.published_date}</p>
+                  <p className="text-gray-600 text-xs md:text-sm">{storyData.created_date}</p>
                 </div>
               </div>
             </div>
@@ -73,7 +82,7 @@ const StoryCard = ({
               />
             </div>
 
-            <p className="w-full text-gray-600 text-xs md:text-sm pt-2">{storyData.sub_title}</p>
+            <p className="w-full text-gray-600 text-xs md:text-sm pt-2">{storyData.subtitle}</p>
             <div className="w-full font-bold text-xl leading-tight text-gray-900 break-words active">
               {storyData.title}
             </div>
@@ -83,10 +92,10 @@ const StoryCard = ({
             <div className="flex items-center justify-between">
               <div className="flex justify-center items-center">
                 <p className="text-gray-600 text-xs md:text-sm mr-2 normal-case">
-                  {storyData.degaUsers[0].display_name}
+                  {storyData.users[0].display_name}
                 </p>
               </div>
-              <p className="text-gray-600 text-xs md:text-sm">{storyData.published_date}</p>
+              <p className="text-gray-600 text-xs md:text-sm">{storyData.created_date}</p>
             </div>
           </div>
         </article>
@@ -108,7 +117,7 @@ const StoryCard = ({
             </div>
             <div className="w-full flex flex-col">
               <p className="w-full text-gray-600 text-xs md:text-sm pb-1">
-                {storyData.categories.name}
+                {storyData.categories[0].name}
               </p>
               <div
                 id={`nav-0`}
@@ -124,10 +133,10 @@ const StoryCard = ({
                 >
                   <div className="flex flex-row flex-wrap">
                     <p className="text-gray-600 text-xs md:text-sm mr-2 normal-case">
-                      {storyData.degaUsers[0].display_name}
+                      {storyData.users[0].display_name}
                     </p>
                   </div>
-                  <p className="text-gray-600 text-xs md:text-sm">{storyData.published_date}</p>
+                  <p className="text-gray-600 text-xs md:text-sm">{storyData.created_date}</p>
                 </div>
               </div>
             </div>
