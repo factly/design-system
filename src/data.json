@@ -34,7 +34,7 @@
         "alt_text": "business image"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "Shashi",
           "display_name": "Shashi "
@@ -58,7 +58,7 @@
         "alt_text": "business image"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "Shashi",
           "display_name": "Shashi "
@@ -82,7 +82,7 @@
         "alt_text": "business image"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "Shashi",
           "display_name": "Shashi "
@@ -106,7 +106,7 @@
         "alt_text": "business image"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "Shashi",
           "display_name": "Shashi "
@@ -130,7 +130,7 @@
         "alt_text": "business image"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "Shashi",
           "display_name": "Shashi "
@@ -154,7 +154,7 @@
         "alt_text": "business image"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "Shashi",
           "display_name": "Shashi "
@@ -183,15 +183,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -208,15 +210,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -233,15 +237,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -258,15 +264,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -283,15 +291,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -308,15 +318,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -333,15 +345,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -358,15 +372,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -383,15 +399,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -408,15 +426,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     },
     {
       "title": "Fact Checking Government claims on Initiatives related to Agriculture - Part 2",
@@ -433,15 +453,17 @@
         "name": "India"
       },
       "featured": {},
-      "degaUsers": [
+      "users": [
         {
           "slug": "rakesh",
           "display_name": "Rakesh Dubbudu"
         }
       ],
-      "categories": {
-        "name": "India"
-      }
+      "categories": [
+        {
+          "name": "India"
+        }
+      ]
     }
   ]
 }
