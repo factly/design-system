@@ -15,7 +15,7 @@ const Tabs = ({ tabs, currentSlug = '', baseUrl }) => {
           <li className="mx-1">
             <a
               href={url}
-              className={`inline-block py-2 px-4 border border-b-0 rounded-t font-medium text-lg focus:outline-none
+              className={`inline-block py-2 px-4 border border-b-0 rounded-t font-medium text-lg focus:outline-none hover:bg-white
       ${tab.slug === currentSlug && 'bg-white'}`}
             >
               {tab.name}

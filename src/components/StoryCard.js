@@ -15,6 +15,7 @@ const StoryCard = ({
   excerpt = false,
   imageSize = 'w-full h-40',
 }) => {
+  console.log(storyData.categories);
   return (
     <>
       {cardStyle === 'basic' && (
@@ -92,7 +93,11 @@ const StoryCard = ({
             <div className="flex items-center justify-between">
               <div className="flex justify-center items-center">
                 <p className="text-gray-600 text-xs md:text-sm mr-2 normal-case">
-                  {storyData.users[0].display_name}
+                  {storyData.users.map((user, i, arr) => (
+                    <span key={i}>
+                      {user.display_name} {arr.length - i > 1 && ','}
+                    </span>
+                  ))}
                 </p>
               </div>
               <p className="text-gray-600 text-xs md:text-sm">{storyData.created_date}</p>
@@ -117,7 +122,11 @@ const StoryCard = ({
             </div>
             <div className="w-full flex flex-col">
               <p className="w-full text-gray-600 text-xs md:text-sm pb-1">
-                {storyData.categories[0].name}
+                {storyData.categories.map((category, i, arr) => (
+                  <span key={i}>
+                    {category.name} {arr.length - i > 1 && ','}
+                  </span>
+                ))}
               </p>
               <div
                 id={`nav-0`}
@@ -133,7 +142,11 @@ const StoryCard = ({
                 >
                   <div className="flex flex-row flex-wrap">
                     <p className="text-gray-600 text-xs md:text-sm mr-2 normal-case">
-                      {storyData.users[0].display_name}
+                      {storyData.users.map((user, i, arr) => (
+                        <span key={i}>
+                          {user.display_name} {arr.length - i > 1 && ','}
+                        </span>
+                      ))}
                     </p>
                   </div>
                   <p className="text-gray-600 text-xs md:text-sm">{storyData.created_date}</p>

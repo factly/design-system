@@ -40,9 +40,11 @@
           "display_name": "Shashi "
         }
       ],
-      "categories": {
-        "name": "Politics"
-      }
+      "categories": [
+        {
+          "name": "Politics"
+        }
+      ]
     },
     {
       "title": "Political Contributions by Yes Bank Defaulter Groups",
@@ -62,9 +64,11 @@
           "display_name": "Shashi "
         }
       ],
-      "categories": {
-        "name": "Politics"
-      }
+      "categories": [
+        {
+          "name": "Politics"
+        }
+      ]
     },
     {
       "title": "Political Contributions by Yes Bank Defaulter Groups",
@@ -84,9 +88,11 @@
           "display_name": "Shashi "
         }
       ],
-      "categories": {
-        "name": "Politics"
-      }
+      "categories": [
+        {
+          "name": "Politics"
+        }
+      ]
     },
     {
       "title": "Political Contributions by Yes Bank Defaulter Groups",
@@ -106,9 +112,11 @@
           "display_name": "Shashi "
         }
       ],
-      "categories": {
-        "name": "Politics"
-      }
+      "categories": [
+        {
+          "name": "Politics"
+        }
+      ]
     },
     {
       "title": "Political Contributions by Yes Bank Defaulter Groups",
@@ -128,9 +136,11 @@
           "display_name": "Shashi "
         }
       ],
-      "categories": {
-        "name": "Politics"
-      }
+      "categories": [
+        {
+          "name": "Politics"
+        }
+      ]
     },
     {
       "title": "Political Contributions by Yes Bank Defaulter Groups",
@@ -150,9 +160,11 @@
           "display_name": "Shashi "
         }
       ],
-      "categories": {
-        "name": "Politics"
-      }
+      "categories": [
+        {
+          "name": "Politics"
+        }
+      ]
     }
   ],
   "factchecks": [
