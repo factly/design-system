@@ -26,13 +26,15 @@ const StoryCard = ({
             href={storyData.slug}
             className={`w-full flex vertical horizontal no-underline hover:no-underline`}
           >
-            <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
-              <img
-                alt={storyData.medium.alt_text}
-                src={storyData.medium.url}
-                className="h-full w-full object-cover rounded"
-              />
-            </div>
+            {storyData.medium.url && (
+              <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
+                <img
+                  alt={storyData.medium.alt_text}
+                  src={storyData.medium.url}
+                  className="h-full w-full object-cover rounded"
+                />
+              </div>
+            )}
             <div className="w-full flex flex-col">
               <p className="text-blue-500 text-xs px-1">
                 {storyData.categories.map((category, i, arr) => (
@@ -75,13 +77,15 @@ const StoryCard = ({
       {cardStyle === 'featured' && (
         <article className="bg-white rounded-t rounded-b-none overflow-hidden px-6">
           <a href={storyData.slug} className="flex flex-wrap no-underline hover:no-underline">
-            <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
-              <img
-                alt={storyData.medium.alt_text}
-                src={storyData.medium.url}
-                className="h-full w-full rounded object-cover"
-              />
-            </div>
+            {storyData.medium.url && (
+              <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
+                <img
+                  alt={storyData.medium.alt_text}
+                  src={storyData.medium.url}
+                  className="h-full w-full rounded object-cover"
+                />
+              </div>
+            )}
 
             <p className="w-full text-gray-600 text-xs md:text-sm pt-2">{storyData.subtitle}</p>
             <div className="w-full font-bold text-xl leading-tight text-gray-900 break-words active">
@@ -113,13 +117,16 @@ const StoryCard = ({
             href={storyData.slug}
             className={`w-full flex vertical no-underline hover:no-underline`}
           >
-            <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
-              <img
-                alt={storyData.medium.alt_text}
-                src={storyData.medium.url}
-                className="h-full w-full object-cover rounded"
-              />
-            </div>
+            {storyData.medium.url && (
+              <div className={`flex justify-start items-start pr-4 py-2 ${imageSize}`}>
+                <img
+                  alt={storyData.medium.alt_text}
+                  src={storyData.medium.url}
+                  className="h-full w-full object-cover rounded"
+                />
+              </div>
+            )}
+
             <div className="w-full flex flex-col">
               <p className="w-full text-gray-600 text-xs md:text-sm pb-1">
                 {storyData.categories.map((category, i, arr) => (

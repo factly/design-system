@@ -134,7 +134,7 @@ function FactCheckWidget({ claims }) {
                       <div
                         dangerouslySetInnerHTML={{ __html: parseEditorJsData(claim.description) }}
                       />
-                      {claim.rating.medium && (
+                      {claim.rating.medium.url && (
                         <img
                           src={claim.rating.medium.url}
                           alt={claim.rating.medium.alt_text}
