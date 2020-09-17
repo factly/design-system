@@ -9,15 +9,14 @@ import './assets/css/main.css';
 import data from '../src/data.json';
 
 const HomePage = () => {
-  const { posts, factchecks, categories } = data;
-  const merged = [...posts, ...factchecks];
-  const [postItems, setPostItems] = useState(merged.slice(0, 2));
+  const { posts, categories } = data;
+  const [postItems, setPostItems] = useState(posts.slice(0, 2));
   const [hasNextPage, setHasNextPage] = useState(true);
   const handleLoadMore = () => {
     if (!hasNextPage) return false;
-    const nextPageItems = merged.slice(postItems.length, postItems.length + 2);
+    const nextPageItems = posts.slice(postItems.length, postItems.length + 2);
     setPostItems([...postItems, ...nextPageItems]);
-    setHasNextPage(postItems.length < merged.length);
+    setHasNextPage(postItems.length < posts.length);
   };
   return (
     <>
@@ -114,9 +113,11 @@ const HomePage = () => {
               <div className="mb-4 pb-4 border-b px-6">
                 <h5 className="heading">Top In Factchecks</h5>
               </div>
-              {factchecks.map((item, index) => (
-                <StoryCard cardStyle="vertical" storyData={item} imageSize="h-40" />
-              ))}
+              {posts
+                .filter((post) => post.claims !== null)
+                .map((item, index) => (
+                  <StoryCard cardStyle="vertical" storyData={item} imageSize="h-40" />
+                ))}
               <Footer />
             </div>
           </div>

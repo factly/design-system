@@ -12,7 +12,7 @@ import StoryCard from './StoryCard';
  */
 
 export default function Navbar() {
-  const { factchecks, posts } = data;
+  const { posts } = data;
   return (
     <React.Fragment>
       {/* {navbarOpen && (
@@ -119,15 +119,17 @@ export default function Navbar() {
                 ))}
               </MenuItems>
               <MenuItems className="order-1 lg:order-3" title="factcheck">
-                {factchecks.map((factcheck, index) => (
-                  <StoryCard
-                    storyData={factcheck}
-                    key={index}
-                    index={index}
-                    excerpt
-                    imageSize="w-20 h-20"
-                  />
-                ))}
+                {posts
+                  .filter((post) => post.claims !== null)
+                  .map((factcheck, index) => (
+                    <StoryCard
+                      storyData={factcheck}
+                      key={index}
+                      index={index}
+                      excerpt
+                      imageSize="w-20 h-20"
+                    />
+                  ))}
               </MenuItems>
               <a
                 href="/videos"
